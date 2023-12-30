@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 24, 24);
+    /* background: url("../images/home 1.jpg") center center/cover no-repeat fixed; */
+    /* background-attachment: fixed; */
+}
+
+header, nav, section, footer 
+{
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 186, 24);
+    color: black;
+}
+
+/* Add the following styles to your existing CSS */
+
+nav li {
+    float: left;
+    color: black; /* Set the color to black */
+}
+
+nav a {
+    display: block;
+    color: black; /* Set the color to black */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: white; /* Change the color on hover to white */
+}
+
+
+section {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home {
+    position: relative;
+    height: 100vh;
+    background-image: url("../images/home 1.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::backdrop {
+    filter: blur(10px);
+}
+
+.image-overlay {
+    text-align: center;
+    color: white;
+}
+
+.image-overlay h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.image-overlay p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-link img {
+    width: 100px; /* Adjust the size as needed */
+}
+
+footer {
+    text-align: center;
+    background-color:rgb(255, 186, 24);
+    color: black;
+    padding: 10px;
+}
